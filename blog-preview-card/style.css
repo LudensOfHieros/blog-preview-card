@@ -9,19 +9,19 @@
     padding: 20px;
     margin-top: 125px;
     max-width: 300px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    box-shadow: 10px 10px  #111;
     background-color: #ffffff;
      
 }
 
-img {
+.Blog-card {
     width: 100%;
     border-radius: 10px;
 }
 
 html {
-    background-color: #d5e1ef ;
+    background-color: #f4d04e ;
     margin: 40px;
     padding: 24px;
 }
@@ -34,10 +34,37 @@ html {
 }
 
 .text {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 140%;
     letter-spacing: 0.2px;
-    font-family: "outfit regular";
-    color: #68778d
+    font-family: figtree;
+    font-weight: 800;
 }
 
+row {
+    display: flex;
+    flex-direction: row;
+}
+.avatar {
+    height: 30px;
+    padding-top: 3%;
+    padding-right: 5%;
+}
+
+.section {
+    background-color: #f4d04e;
+    font-family: figtree;
+    font-size: 14px;
+    font-weight:800;
+    padding: 1%;
+    width: 22%;
+    border-radius: 15%;
+    text-align: center;
+    
+}
+.text:hover,.text:active,.text:focus {
+    color: #f4d04e;
+}
+.attribution {
+    padding-top: 5%;
+}
